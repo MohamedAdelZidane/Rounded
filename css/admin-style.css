@@ -1,0 +1,113 @@
+/****** Main Fonts ******/
+
+h1,h2,h3,h4,h5,span{font-family: 'Roboto Slab', serif;}
+p,li{font-family: 'Roboto Condensed', sans-serif;}
+
+/***** Block-Tiltes *****/
+
+.block-title {
+    border-bottom: 3px solid #000;
+    padding-bottom: 4px;
+}
+
+.block-title span {
+    color: #FFF;
+    background-color: #000;
+    padding: 3px 17px;
+}
+
+/***** Social Hover *****/
+
+.follow .fa-facebook:hover {color: #3A5795}
+
+.follow .fa-twitter:hover {color: #1DA1F2}
+
+.follow .fa-linkedin:hover {color: #1B86BD}
+
+.follow .fa-pinterest-p:hover {color: #C81F26}
+
+.follow .fa-rss:hover {color: #DB5F29}
+
+.follow .fa-youtube:hover {color: #CC181E}
+
+/* Start NavBar */
+
+.navbar {
+    border-radius: 0;
+    border: none;
+    background-color: #0C0C0C;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-brand span {
+    color: #07D9F0;
+    font-size: 19px
+}
+
+.navbar-default .navbar-brand:hover, /* hover 3la el brand name */
+.navbar-default .navbar-brand:focus {
+    color: #FFF
+}
+
+.navbar-default .navbar-nav > .active > a, /* 3shan 28yr color bta3 el link el active */
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #07D9F0;
+    background: none;
+    border-bottom: 2px solid #07D9F0
+}
+
+.navbar-default .navbar-nav > li > a { /* color bta3 el links */
+    color: #FFF;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    margin-right: 17px;
+    margin-left: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover, /* hover 3la el links */
+.navbar-default .navbar-nav > li > a:focus {
+    color: #07D9F0
+}
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.navbar-right .dropdown-menu {
+    left: 15px
+}
+
+.dropdown-menu > li > a {
+    color: #FFF
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: none
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #07D9F0
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    background: none;
+    color: #07D9F0;
+    border-bottom: 2px solid #07D9F0
+}
+
+/* End NavBar */

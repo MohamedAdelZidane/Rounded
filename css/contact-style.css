@@ -1,0 +1,572 @@
+/****** Main Fonts ******/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+    font-family: 'Roboto Slab', serif;
+}
+
+p,
+li {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/***** Block-Tiltes *****/
+
+.block-title {
+    border-bottom: 3px solid #000;
+    padding-bottom: 3px;
+}
+
+.block-title span {
+    color: #FFF;
+    background-color: #000;
+    padding: 3px 17px;
+}
+
+
+/***** Social Hover *****/
+
+.follow .fa-facebook:hover {
+    color: #3A5795
+}
+
+.follow .fa-twitter:hover {
+    color: #1DA1F2
+}
+
+.follow .fa-linkedin:hover {
+    color: #1B86BD
+}
+
+.follow .fa-pinterest-p:hover {
+    color: #C81F26
+}
+
+.follow .fa-rss:hover {
+    color: #DB5F29
+}
+
+.follow .fa-youtube:hover {
+    color: #CC181E
+}
+
+
+/* Start NavBar */
+
+.navbar {
+    border-radius: 0;
+    border: none;
+    background-color: #0C0C0C;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-brand span {
+    color: #07D9F0;
+    font-size: 19px
+}
+
+.navbar-default .navbar-brand:hover,
+
+/* hover 3la el brand name */
+
+.navbar-default .navbar-brand:focus {
+    color: #FFF
+}
+
+.navbar-default .navbar-nav > .active > a,
+
+/* 3shan 28yr color bta3 el link el active */
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #07D9F0;
+    background: none;
+    border-bottom: 2px solid #07D9F0
+}
+
+.navbar-default .navbar-nav > li > a {
+    /* color bta3 el links */
+    color: #FFF;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    margin-right: 17px;
+    margin-left: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+
+/* hover 3la el links */
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #07D9F0
+}
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.navbar-right .dropdown-menu {
+    left: 15px
+}
+
+.dropdown-menu > li > a {
+    color: #FFF
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: none
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #07D9F0
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    background: none;
+    color: #07D9F0;
+    border-bottom: 2px solid #07D9F0
+}
+
+
+/* End NavBar */
+
+
+/* Start Getus */
+
+.getus {
+    margin-top: 120px
+}
+
+.getus h1 {
+    margin-top: 0;
+    margin-bottom: 48px
+}
+
+.getus p {
+    font-size: 19px;
+    line-height: 33px;
+    margin-bottom: 30px
+}
+
+.getus .desc-ul {
+    font-size: 19px;
+    line-height: 33px
+}
+
+.getus .contact-details h4 {
+    margin-top: 0
+}
+
+.getus .contact-details h5 {
+    margin-top: 42px;
+    font-size: 18px
+}
+
+.getus .contact-details a {
+    text-decoration: none
+}
+
+.getus h4 {
+    margin-top: 0;
+    margin-bottom: 33px
+}
+
+
+/* Start Form */
+
+.form h4 {
+    margin-top: 68px
+}
+
+.form-control {
+    box-shadow: 0 0 0 0
+}
+
+.getus input[type="text"] {
+    margin-top: 20px;
+    height: 38px;
+    padding: 10px 20px;
+    border-radius: 0;
+    background: transparent;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.getus textarea {
+    padding: 10px 20px;
+    height: 120px;
+    border-radius: 0;
+    background: transparent;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.getus button {
+    background: #07D9F0;
+    width: 70px;
+    color: #FFF;
+    border: 2px solid #07D9F0;
+    border-radius: 0;
+    margin-top: 10px;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    transition: all .6s ease
+}
+
+.getus button:hover {
+    background-color: #FFF;
+    border: 2px solid #01ACC0;
+    color: #07D9F0
+}
+
+
+/* End Form */
+
+
+/* End Getus */
+
+
+/* Start Advertise */
+
+.advertise {
+    margin-top: 27px
+}
+
+.advertise img {
+    margin-top: 5px
+}
+
+
+/* End Advertise */
+
+
+/* Start Footer */
+
+.footer {
+    background-color: #222;
+    margin-top: 40px
+}
+
+.footer .main-name h1 {
+    color: #FFF;
+    margin-top: 120px;
+    text-transform: uppercase;
+}
+
+.footer .main-name h1 span {
+    color: #07D9F0;
+    font-size: 24px
+}
+
+.footer .main-name p {
+    color: #FFF;
+}
+
+.footer .about {
+    margin-top: 70px;
+    color: #FFF;
+}
+
+.footer .about h3 {
+    margin-bottom: 21px
+}
+
+.footer .about p {
+    color: #FFF;
+    line-height: 25px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.footer .about h4 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.footer .about a {
+    color: #07D9F0;
+    text-decoration: none
+}
+
+.footer .about span {
+    color: #07D9F0
+}
+
+.footer .follow {
+    margin-top: 70px;
+    color: #FFF
+}
+
+.footer .follow h3 {
+    margin-bottom: 33px
+}
+
+.footer .follow a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer .follow i {
+    font-size: 16px;
+    padding: 12px 14px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, .03);
+}
+
+.footer .follow .fa-facebook {
+    padding: 12px 17px
+}
+
+.rights {
+    color: #FFF;
+    background-color: #0D0D0D;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+
+/* End Footer */
+
+
+/* Start Back to Top */
+
+#scroll-top {
+    background-color: #444;
+    color: #DDD;
+    padding: 10px 15px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99999999999999;
+    display: none;
+    cursor: pointer
+}
+
+#scroll-top:hover {
+    background-color: #272727
+}
+
+
+/* End Back to Top */
+
+
+/* Start Forms */
+
+
+/****** Start Forms Basics ******/
+
+.popup {
+    position: fixed;
+    top: 0;
+    z-index: 888888;
+    display: none
+}
+
+.contact .input-group {
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF
+}
+
+.contact .form-control {
+    padding-left: 55px;
+    height: 46px
+}
+
+.contact .input-group-addon {
+    position: absolute;
+    z-index: 9;
+    border: 0;
+    padding: 19px 4px;
+    width: 17%;
+    border-radius: 0;
+    background: none
+}
+
+.contact .input-group-addon i {
+    border-right: 1px solid #000;
+}
+
+.contact input {
+    background: transparent;
+    border: none !important;
+    border-bottom: 2px solid #757575 !important;
+    border-radius: 0;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 0 0 0;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.contact::-webkit-input-placeholder {
+    color: #000 !important;
+}
+
+
+/****** End Forms Basics ******/
+
+
+/****** Start Close Button ******/
+
+.return {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 365px;
+}
+
+.return i {
+    color: #07D9F0;
+    font-size: 30px
+}
+
+.return i:hover {
+    color: #000
+}
+
+
+/****** End Close Button ******/
+
+
+/****** Start Registration Form ******/
+
+.registration {
+    background-color: aliceblue;
+    margin-top: 90px;
+    padding-top: 35px;
+    padding-bottom: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    position: relative;
+    width: 460px;
+}
+
+.registration h2 {
+    margin-left: 60px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    border-left: 4px solid #07D9F0;
+    color: #07D9F0
+}
+
+.registration .fa-user-plus {
+    font-size: 22px;
+    padding: 5px 6px;
+}
+
+.registration .fa-envelope {
+    font-size: 22px;
+    padding: 5px 8px;
+}
+
+.registration .fa-link {
+    font-size: 22px;
+    padding: 5px 9px;
+}
+
+.registration .fa-mobile {
+    font-size: 30px;
+    padding: 2px 12px;
+}
+
+.registration button {
+    background: #07D9F0;
+    width: 60.1%;
+    color: #FFF;
+    border: 2px solid #07D9F0;
+    margin-top: 20px;
+    margin-left: 92px;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    transition: all .6s ease
+}
+
+.registration button:hover {
+    background-color: #FFF;
+    border: 2px solid #07D9F0;
+    color: #07D9F0
+}
+
+
+/****** End Registration Form ******/
+
+
+/****** Start LogIn Form ******/
+
+.login {
+    background-color: aliceblue;
+    margin-top: 90px;
+    padding-top: 35px;
+    padding-bottom: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    position: relative;
+    width: 460px;
+}
+
+.login h2 {
+    margin-left: 60px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    border-left: 4px solid #07D9F0;
+    color: #07D9F0
+}
+
+.login .fa-user {
+    font-size: 22px;
+    padding: 5px 9px;
+}
+
+.login .fa-link {
+    font-size: 22px;
+    padding: 5px 9px;
+}
+
+.login button {
+    background: #07D9F0;
+    width: 60.1%;
+    color: #FFF;
+    border: 2px solid #07D9F0;
+    margin-top: 20px;
+    margin-left: 92px;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.login button:hover {
+    background-color: #FFF;
+    border: 2px solid #07D9F0;
+    color: #07D9F0
+}
+
+
+/****** End LogIn Form ******/
+
+
+/****** End Forms *******/
